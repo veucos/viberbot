@@ -13,9 +13,9 @@ from viberbot.api.viber_requests import ViberUnsubscribedRequest
 
 app = Flask(__name__)
 viber = Api(BotConfiguration(
-    name='PythonSampleBot',
-    avatar='http://site.com/avatar.jpg',
-    auth_token='445da6az1s345z78-dazcczb2542zv51a-e0vc5fva17480im9'
+    name='VeucosBot',
+    avatar='https://raw.githubusercontent.com/veucos/viberbot/master/avatar.jpg',
+    auth_token='47bda714afe7d471-fcd8e3f91d519a47-f627f18d8c560609'
 ))
 
 
